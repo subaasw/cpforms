@@ -1,0 +1,80 @@
+.cpforms-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cpforms-form input,
+.cpforms-form textarea {
+  padding: 8px 16px;
+}
+
+.cpforms-form button {
+  align-self: flex-start;
+  padding: 8px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cpforms-table-list {
+  border-color: #858585;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+}
+
+.cpforms-table-list td,
+.cpforms-table-list th {
+  padding: 16px;
+}
+
+.cpforms-list-container form {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: end;
+  gap: 24px;
+}
+
+.cpforms-list-container form select {
+  width: 150px;
+  padding: 6px 16px;
+}
+
+.cpforms-list-container input {
+  padding: 6px 16px;
+}
+
+.form-title {
+  border: none;
+  border-top: 1px solid gray;
+  text-align: center;
+}
+
+.cpforms-nav-btns {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+}
+
+.cpforms-nav-btns button {
+  border-radius: 100%;
+  display: flex;
+  font-size: 16px;
+  height: 34px;
+  place-content: center;
+  text-align: center;
+  width: 34px;
+  padding: 6px;
+  border: 1px solid #a2a2a2;
+  cursor: pointer;
+}
+
+.cpforms-filter-btn {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+
+.cpforms-nav-btns button:disabled{
+  cursor: not-allowed;
+}
